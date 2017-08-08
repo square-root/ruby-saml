@@ -120,6 +120,13 @@ module OneLogin
       # @return [String] The encoded string
       #
       def encode(string)
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
+        puts string
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
+        puts "*/-*/-*/-*/-*/-*/-*/-*/-*/-*/"
         Base64.encode64(string)
       end
 
